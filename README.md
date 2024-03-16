@@ -34,7 +34,7 @@ bashProject.sh:
 The main script containing the database management functions and the main menu.
 
 Contributors:
-Amal
+Amal &
 Asmaa
 
 Feel free to contribute to this project or provide feedback for improvements!
