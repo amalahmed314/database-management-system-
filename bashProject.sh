@@ -730,9 +730,9 @@ select_from_table() {
                     # File is empty, print the header
                     echo "~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*"
                     sed -n '2p;4p' "${metadata_file}"
-                    echo "<<----------------->>"
+                    echo "<<--------------------------------------------------------->>"
                     echo -e "${RED}<<----- The Table Is Empty. Not Data Yet !! ------>>${RESET}"
-                    echo "~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*"
+                    echo "<<----- ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* ------>>"
                 fi
                 break;;
             [Nn][Oo])
@@ -879,9 +879,9 @@ select_from_table() {
                                     # File is empty, print the header
                                     echo "~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*"
                                     sed -n '2p;4p' "${metadata_file}"
-                                    echo "<<----------------->>"
+                                    echo "<<-------------------------------------------------------->>"
                                     echo -e "${RED}<<----- The Table Is Empty. No Data Yet !! ------>>${RESET}"
-                                    echo "-------  ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* ------>>"
+                                    echo "<<----- ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* ------>>"
                                 fi
                                 break
                             fi
