@@ -16,7 +16,7 @@ Usage:
 
 Clone the repository to your local machine and navigate to the project directory.
 
-   git clone https://github.com/username/database-management-system-.git
+   git clone https://github.com/amalahmed314/database-management-system-.git
    cd database-management-system-
 
 2. Make the Script Executable:
