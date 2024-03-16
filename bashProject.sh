@@ -1085,7 +1085,7 @@ update_raw() {
                 # Validate that the input is text
                 if ! [[ "$newValue" =~ ^[a-zA-Z_]+$ ]]; then
                     echo "<<----------------->>"
-                    echo "Error: Invalid input. Only letters and underscores are allowed.${RESET}"
+                    echo "${RED}Error: Invalid input. Only letters and underscores are allowed.${RESET}"
                     echo "<<----------------->>"
                     return 1
                 fi
